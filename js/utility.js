@@ -5,3 +5,15 @@ function getInputFieldValue(inputFieldId) {
   inputField.value = "";
   return inputValue;
 }
+
+function getElementFieldValue(elementFieldId) {
+  const elementField = document.getElementById(elementFieldId);
+  const elementFieldString = elementField.innerText;
+  const elementFieldValue = parseFloat(elementFieldString);
+  return elementFieldValue;
+}
+
+function setElementFieldValue(elementFieldId, total) {
+  const elementField = document.getElementById(elementFieldId);
+  elementField.innerText = total;
+}
