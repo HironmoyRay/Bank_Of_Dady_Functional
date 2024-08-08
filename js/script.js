@@ -5,10 +5,10 @@ document.getElementById("btn-submit").addEventListener("click", function () {
     const passwordField = document.getElementById("password-field");
     const password = passwordField.value;
     // console.log(password);
-    if (email === "bankofdady@gmail.com" && password === "1234") {
+    if (email === "bankofdaddy@gmail.com" && password === "1234") {
       window.location.href = "insideOfBank.html";
     } else {
-      if (email !== "bankofdady@gmail.com") {
+      if (email !== "bankofdaddy@gmail.com") {
         alert("Please Enter Valid Email");
       } else {
         alert("Please Enter Correct Password");
